@@ -13,7 +13,7 @@ body
     color: var(--pramiry-color);
     background-color: var(--background-color);
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -21,6 +21,20 @@ body
     line-height: 1.71;
 
     letter-spacing: 0.03em;
+}
+
+/* visually hidden */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 /* logo */
@@ -52,7 +66,7 @@ body
 .link{
     color: var(--secondory-color);
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -78,14 +92,28 @@ body
     color: gba(255, 255, 255, 0.6);
 }
 
-/* hero */
+/* title */
+.title{
+    color: var(--secondory-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* hero section */
 .hero-section{
     background-color: #2F303A;;
 }
 .hero-title{
     color: #FFFFFF;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -98,5 +126,31 @@ body
     text-transform: uppercase;
 }
 .btn{
+    background-color: var(--company-color);
+    color: #fff;
 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    border: 0;
+}
+
+/* features section */
+.features-title{
+    color: var(--secondory-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
