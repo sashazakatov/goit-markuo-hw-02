@@ -154,3 +154,23 @@ body
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+/* employee section */
+.employee-title
+{
+    color: var(--secondory-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.speciality{
+    font-size: 14px;
+
+    line-height: 1.71;
+    text-align: center;
+}
