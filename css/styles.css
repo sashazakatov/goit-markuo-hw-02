@@ -1,11 +1,15 @@
 :root{
-    --background-color: #FFFFFF;
+    --background-color: #FFF;
     --pramiry-color: #757575;
     --secondory-color:#212121;
     --company-color:#2196F3;
 
     --footer-contact-color: rgba(255, 255, 255, 0.6);
 
+    --pramiry-button-color: #FFF;
+    --secondory-button-color: #212121;
+    --pramiry-button-background-color: #2196F3;
+    --secondory-button-background-color: #F5F4FA; 
 }
 
 body
@@ -51,6 +55,9 @@ body
 
     text-decoration: none;
 }
+footer > .logo{
+    color: #FFFFFF;
+}
 .logo-cover{
     color: var(--company-color);
 }
@@ -90,6 +97,22 @@ address > a[class="link contact"]{
     color: rgba(255, 255, 255, 0.6);
 }
 
+/* button */
+.button{
+    color: var(--pramiry-button-color);
+    background-color: var(--pramiry-button-background-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+    border: 0;
+}
+.button:hover{
+    color: var(--secondory-button-color);
+    background-color: var(--secondory-button-background-color);
+}
 /* title */
 .title{
     color: var(--secondory-color);
@@ -119,9 +142,9 @@ address > a[class="link contact"]{
 
     text-transform: uppercase;
 }
-.btn{
+.hero-button{
     background-color: var(--company-color);
-    color: #fff;
+    color: var(--pramiry-button-color);
 
     font-family: inherit;
     font-weight: 700;
