@@ -41,8 +41,7 @@ body
  .logo{
     color: #000000;
 
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
 
@@ -52,7 +51,7 @@ body
 
     text-decoration: none;
 }
-.logo-span{
+.logo-cover{
     color: var(--company-color);
 }
 
@@ -66,8 +65,7 @@ body
 .link{
     color: var(--secondory-color);
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: var(--pramiry-color);
     font-weight: 500;
     font-size: 14px;
 
@@ -80,15 +78,15 @@ body
 }
 
 /* header link */
-.link.header-contact{
-    color: var(--pramiry-color);
+a[class="link contact"]{
+    color: inherit;
 }
-.link:hover{
+.link:hover, .link:focus{
     color: var(--company-color);
 }
 
 /* footer link */
-.footer-contact{
+address > a[class="link contact"]{
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -96,13 +94,11 @@ body
 .title{
     color: var(--secondory-color);
 
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     
     line-height: 1.16;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
@@ -113,8 +109,7 @@ body
 .hero-title{
     color: #FFFFFF;
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: inherit;
     font-weight: 900;
     font-size: 44px;
 
@@ -122,31 +117,29 @@ body
 
     letter-spacing: 0.06em;
 
-    text-align: center;
     text-transform: uppercase;
 }
 .btn{
     background-color: var(--company-color);
     color: #fff;
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
 
-    text-align: center;
     letter-spacing: 0.06em;
 
     border: 0;
+
+    cursor: pointer;
 }
 
 /* features section */
 .features-title{
     color: var(--secondory-color);
 
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-family: inherit;
     font-weight: 700;
     font-size: 14px;
     
@@ -159,26 +152,23 @@ body
 {
     color: var(--secondory-color);
 
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
 
     line-height: 1.19;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 .speciality{
     font-size: 14px;
 
     line-height: 1.71;
-    text-align: center;
 }
 
 /* footer */
 footer{
     background-color: #2F303A;
 }
-.address{
+address{
     color: #fff;
 }
