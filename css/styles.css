@@ -41,7 +41,58 @@ body
     margin: -1px;
 }
 
-/* logo */
+/* list */
+.list {
+    list-style: none;
+}
+
+/* links */
+.link {
+    color: inherit;
+
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--company-color);
+}
+
+/* button */
+.button {
+    color: var(--pramiry-button-color);
+    background-color: var(--pramiry-button-background-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+
+    border: 0;
+}
+.button:hover,
+.button:focus {
+    color: var(--secondory-button-color);
+    background-color: var(--secondory-button-background-color);
+}
+/* title */
+.title {
+    color: var(--secondory-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+/* header */
  .logo{
     color: #000000;
 
@@ -55,75 +106,29 @@ body
 
     text-decoration: none;
 }
-footer > .logo{
-    color: #FFFFFF;
-}
 .logo-cover{
     color: var(--company-color);
 }
-
-/* list */
-.list
-{
-    list-style: none;
-}
-
-/* link */
-.link{
+.navigation-link {
     color: var(--secondory-color);
 
-    font-family: var(--pramiry-color);
     font-weight: 500;
-    font-size: 14px;
 
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .link.this-page {
     color: var(--company-color);
 }
-
-/* header link */
-a[class="link contact"]{
+.top-contact {
     color: inherit;
-}
-.link:hover, .link:focus{
-    color: var(--company-color);
-}
-
-/* footer link */
-address > a[class="link contact"]{
-    color: rgba(255, 255, 255, 0.6);
-}
-
-/* button */
-.button{
-    color: var(--pramiry-button-color);
-    background-color: var(--pramiry-button-background-color);
 
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
 
-    border: 0;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-.button:hover{
-    color: var(--secondory-button-color);
-    background-color: var(--secondory-button-background-color);
-}
-/* title */
-.title{
-    color: var(--secondory-color);
 
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 36px;
-    
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-}
 
 /* hero section */
 .hero-section{
@@ -164,12 +169,14 @@ address > a[class="link contact"]{
 
     font-family: inherit;
     font-weight: 700;
-    font-size: 14px;
+    font-size: inherit;
     
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+/* development-section */
+
 /* employee section */
 .employee-title
 {
@@ -182,25 +189,38 @@ address > a[class="link contact"]{
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.speciality{
+.employee-text{
     font-size: 14px;
 
     line-height: 1.71;
 }
 
 /* footer */
-footer{
+.bottom-section{
     background-color: #2F303A;
 }
-address{
+.logo.bottom-logo {
+    color: #FFFFFF;
+}
+.bottom-text{
     color: #fff;
     font-style: inherit;
 }
-/* Card */
-.card-link{
+.bottom-contact {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 500;
+    font-style:normal;
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* product section */
+.product-link{
     text-decoration: none;
 }
-.card-title{
+.product-title{
     color: var(--secondory-button-color);
 
     font-weight: 700;
@@ -209,12 +229,11 @@ address{
 
     letter-spacing: 0.06em;
 }
-
-.card-text{
+.product-text{
     color: var(--pramiry-color);
 
     font-size: 16px;
+
     line-height: 30px;
-    
     letter-spacing: 0.03em;
 }
