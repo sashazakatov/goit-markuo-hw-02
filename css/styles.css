@@ -196,3 +196,25 @@ address{
     color: #fff;
     font-style: inherit;
 }
+/* Card */
+.card-link{
+    text-decoration: none;
+}
+.card-title{
+    color: var(--secondory-button-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+}
+
+.card-text{
+    color: var(--pramiry-color);
+
+    font-size: 16px;
+    line-height: 30px;
+    
+    letter-spacing: 0.03em;
+}
