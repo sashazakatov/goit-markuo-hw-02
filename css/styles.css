@@ -190,7 +190,12 @@ body
 }
 .bottom-text{
     color: #fff;
+
     font-style: inherit;
+    font-weight: 400;
+
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .bottom-contact {
     color: rgba(255, 255, 255, 0.6);
