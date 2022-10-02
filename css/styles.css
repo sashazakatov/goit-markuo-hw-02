@@ -16,13 +16,8 @@ body
 {
     color: var(--pramiry-color);
     background-color: var(--background-color);
-
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-
-    line-height: 1.71;
 
     letter-spacing: 0.03em;
 }
@@ -50,8 +45,6 @@ body
 .link {
     color: inherit;
 
-    font-family: inherit;
-    font-weight: inherit;
     font-size: inherit;
 
     line-height: 1.14;
@@ -65,11 +58,13 @@ body
 
 /* button */
 .button {
-    color: var(--pramiry-button-color);
-    background-color: var(--pramiry-button-background-color);
+    color: var(--secondory-button-color);
+    background-color: var(--secondory-button-background-color);
 
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
+    
     line-height: 1.6;
     letter-spacing: 0.03em;
 
@@ -77,14 +72,13 @@ body
 }
 .button:hover,
 .button:focus {
-    color: var(--secondory-button-color);
-    background-color: var(--secondory-button-background-color);
+    color: var(--pramiry-button-color);
+    background-color: var(--pramiry-button-background-color);
 }
 /* title */
 .title {
     color: var(--secondory-color);
 
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
 
@@ -101,7 +95,6 @@ body
     font-size: 26px;
 
     line-height: 1.2;
-
     letter-spacing: 0.03em;
 
     text-decoration: none;
@@ -121,7 +114,6 @@ body
     color: var(--company-color);
 }
 .top-contact {
-    color: inherit;
 
     font-weight: 500;
 
@@ -137,12 +129,10 @@ body
 .hero-title{
     color: #FFFFFF;
 
-    font-family: inherit;
     font-weight: 900;
     font-size: 44px;
 
     line-height: 1.4;
-
     letter-spacing: 0.06em;
 
     text-transform: uppercase;
@@ -167,7 +157,6 @@ body
 .features-title{
     color: var(--secondory-color);
 
-    font-family: inherit;
     font-weight: 700;
     font-size: inherit;
     
@@ -182,7 +171,6 @@ body
 {
     color: var(--secondory-color);
 
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
 
@@ -190,8 +178,6 @@ body
     letter-spacing: 0.03em;
 }
 .employee-text{
-    font-size: 14px;
-
     line-height: 1.71;
 }
 
@@ -234,6 +220,6 @@ body
 
     font-size: 16px;
 
-    line-height: 30px;
+    line-height: 1.8;
     letter-spacing: 0.03em;
 }
